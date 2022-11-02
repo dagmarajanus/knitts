@@ -1,0 +1,264 @@
+@font-face {
+    src: url(fonts/Hind-Regular.ttf);
+    font-family: Hind;
+}
+
+body {
+    background-color: rgb(227, 151, 250);
+    margin: auto;
+}
+
+.ad {
+    height: 30px;
+    width: 100%;
+    background-color: rgb(101, 211, 101);
+    display: block;
+    text-align: center;
+    padding-top: 5px;
+}
+
+nav {
+    margin: 0;
+    height: 90px;
+    width: 100%;
+    background-color: rgba(189, 69, 189, 0);
+    position: fixed;
+}
+
+nav.bluenav .menu {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(56, 178, 209);
+    margin: 0px;
+    padding: 0;
+    border: 0;
+    position: sticky;
+}
+
+li {
+    text-decoration: none;
+    text-align: right;
+    /* overflow: hidden; */
+    transition: 0.5s;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    /* overflow: hidden; */
+    transition: 0.5s;
+}
+
+#logo1 {
+    height: 80px;
+    width: 100px;
+    float: left;
+    margin-left: 30px;
+}
+
+#logo2 {
+    float: left;
+    margin-top: 40px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 15px;
+    padding: 10px;
+    font-family: Hind;
+}
+
+#s1 {
+    background-color: rgb(162, 162, 255);
+    display: block;
+    height: 700px;
+}
+
+#s2 {
+    background-color: rgb(245, 245, 153);
+    display: block;
+    height: 700px;
+    width: 100%;
+}
+
+#s3 {
+    background-color: rgb(245, 153, 217);
+    display: block;
+    height: 700px;
+    width: 100%;
+}
+
+#s4 {
+    background-color: rgb(187, 245, 153);
+    display: block;
+    height: 700px;
+    width: 100%;
+}
+
+#s5 {
+    background-color: rgb(154, 153, 245);
+    display: block;
+    height: 700px;
+    width: 100%;
+}
+
+.section1pic {
+    height: fit-content;
+    width: 50%;
+    float: left;
+    /* padding-top: 50px; */
+}
+
+.pics1 {
+    height: 600px;
+    width: 100%;
+}
+
+.section2content {
+    height: fit-content;
+    width: 50%;
+    height: 700px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.section2pics {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.pics21 {
+    height: 300px;
+    width: 250px;
+    position: relative;
+    top: -40px;
+    left: -40px;
+}
+
+.pics22 {
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 70px;
+    left: 90px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+
+.texts2 {
+    float: left;
+    font-size: 35px;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.section3content1 {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+}
+
+.texts3 {
+    vertical-align: middle;
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#table1 {
+    margin: auto;
+}
+
+td {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+}
+
+#vest1 {
+    background-image: url(Pictures/vest1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#vest2 {
+    background-image: url(Pictures/vest2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#vest3 {
+    background-image: url(Pictures/vest3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#vest4 {
+    background-image: url(Pictures/vest4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#vest5 {
+    background-image: url(Pictures/vest5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#sweater1 {
+    background-image: url(Pictures/sweater1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.colectionnames {
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
