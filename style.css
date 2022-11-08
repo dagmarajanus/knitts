@@ -67,6 +67,15 @@ nav ul {
     transition: 0.5s;
 }
 
+.menu {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    overflow: hidden;
+    transition: 1s;
+    top: 0;
+}
+
 #logo1 {
     height: 80px;
     width: 100px;
@@ -79,58 +88,27 @@ nav ul {
     margin-top: 40px;
 }
 
-.menu {
-    padding: 0;
-    margin: 0;
-    text-align: right;
-    overflow: hidden;
-    transition: 1s;
-    top: 0;
-}
-
 #s1 {
     background-color: rgb(162, 162, 255);
     display: block;
     height: 600px;
 }
 
-#s2 {
-    background-color: rgb(245, 245, 153);
-    display: block;
-    height: 700px;
-    width: 100%;
-}
-
-#s3 {
-    background-color: rgb(245, 153, 217);
-    display: block;
-    height: 700px;
-    width: 100%;
-}
-
-#s4 {
-    background-color: rgb(187, 245, 153);
-    display: block;
-    height: 700px;
-    width: 100%;
-}
-
-#s5 {
-    background-color: rgb(154, 153, 245);
-    display: block;
-    height: 700px;
-    width: 100%;
-}
-
 .section1pic {
     height: fit-content;
     width: 50%;
     float: left;
-    /* padding-top: 50px; */
 }
 
 .pics1 {
     height: 600px;
+    width: 100%;
+}
+
+#s2 {
+    background-color: rgb(245, 245, 153);
+    display: block;
+    height: 700px;
     width: 100%;
 }
 
@@ -173,6 +151,13 @@ nav ul {
     font-size: 35px;
     text-decoration: none;
     text-transform: none;
+}
+
+#s3 {
+    background-color: rgb(245, 153, 217);
+    display: block;
+    height: 700px;
+    width: 100%;
 }
 
 .section3content1 {
@@ -263,4 +248,18 @@ td {
     margin: 0px;
     padding: 0px;
     font-size: 30px;
+}
+
+#s4 {
+    background-color: rgb(187, 245, 153);
+    display: block;
+    height: 700px;
+    width: 100%;
+}
+
+#s5 {
+    background-color: rgb(154, 153, 245);
+    display: block;
+    height: 700px;
+    width: 100%;
 }
