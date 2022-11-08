@@ -1,14 +1,3 @@
-// $(window).scroll(function() {
-
-//     if ($(window).scrollTop()) {
-//         $("nav").addClass("bluenav");
-
-//     } else {
-//         $("nav").
-//     }
-// });
-
-
 window.onscroll = function() { scrollFunction() };
 
 function scrollFunction() {

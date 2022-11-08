@@ -8,6 +8,17 @@ body {
     margin: auto;
 }
 
+a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 15px;
+    padding: 10px;
+    font-family: Hind;
+}
+
 .ad {
     height: 30px;
     width: 100%;
@@ -42,20 +53,17 @@ nav.bluenav {
 li {
     text-decoration: none;
     text-align: right;
-    /* overflow: hidden; */
     transition: 0.5s;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 20px;
 }
 
 nav ul {
     list-style: none;
     background: rgba(0, 0, 0, 0);
     color: white;
-    /* overflow: hidden; */
     transition: 0.5s;
 }
 
@@ -80,21 +88,10 @@ nav ul {
     top: 0;
 }
 
-a {
-    color: white;
-    font-size: 15px;
-    text-decoration: none;
-    font-weight: bolder;
-    text-transform: uppercase;
-    margin: 15px;
-    padding: 10px;
-    font-family: Hind;
-}
-
 #s1 {
     background-color: rgb(162, 162, 255);
     display: block;
-    height: 700px;
+    height: 600px;
 }
 
 #s2 {
